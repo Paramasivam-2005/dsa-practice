@@ -1,0 +1,114 @@
+1. Tree Traversals
+
+DFS (Inorder, Preorder, Postorder)
+
+BFS (Level Order using Queue)
+
+Variants: Zigzag traversal, reverse level order
+👉 These are the “Hello World” of trees.
+
+2. Recursive DFS Pattern
+
+Almost every tree problem boils down to:
+
+def dfs(node):
+    if not node: return ...
+    left = dfs(node.left)
+    right = dfs(node.right)
+    # combine left & right with node.val
+    return ...
+
+
+Problems:
+
+Maximum depth of binary tree
+
+Balanced binary tree check
+
+Diameter of tree
+
+3. Comparisons & Symmetry
+
+Comparing subtrees / mirroring.
+
+Problems:
+
+Same Tree
+
+Symmetric Tree
+
+Subtree of Another Tree
+
+4. Path-Based Problems
+
+Find paths, sums, or max values.
+
+Problems:
+
+Path Sum I / II
+
+Maximum Path Sum
+
+Count paths with a given sum
+
+👉 Trick: “DFS + pass down accumulated sum/path”
+
+5. Lowest Common Ancestor (LCA) Pattern
+
+Foundational for many problems.
+
+Problems:
+
+LCA of two nodes
+
+Distance between nodes
+
+Binary tree to linked list (flattening paths)
+
+6. Binary Search Tree (BST) Properties
+
+Inorder traversal is sorted.
+
+Problems:
+
+Validate BST
+
+Search in BST
+
+Insert / Delete in BST
+
+Kth smallest element in BST
+
+Convert sorted array → BST
+
+7. Serialization / Deserialization
+
+Important for interviews.
+
+Convert tree → string (preorder/BFS)
+
+Convert string → tree
+
+8. Morris Traversal (Advanced)
+
+O(1) space inorder traversal.
+
+Rare but good for advanced prep.
+
+9. Tree DP
+
+Like “subtree returns info” that parent uses.
+
+Problems:
+
+House Robber III
+
+Diameter of Binary Tree
+
+Max path sum
+
+10. Special Structures
+
+Trie (Prefix Tree) – used in strings problems.
+
+Segment Tree / Fenwick Tree (BIT) – for range queries.

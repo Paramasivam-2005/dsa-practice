@@ -1,0 +1,197 @@
+🧠 GRAPH DATA STRUCTURE – MASTER ROADMAP (with LeetCode)
+🔹 Phase 0: Graph Basics (VERY IMPORTANT)
+
+Before solving problems, understand these concepts:
+
+Concepts to learn
+
+What is a graph
+
+Directed vs Undirected
+
+Weighted vs Unweighted
+
+Adjacency List vs Adjacency Matrix
+
+Degree, Path, Cycle
+
+Connected Components
+
+👉 No LeetCode yet. Just concepts + small examples.
+
+🔹 Phase 1: DFS & BFS Basics (Day 1–7)
+
+This is the foundation of all graph problems.
+
+What to master
+
+DFS (recursive & iterative)
+
+BFS (queue based)
+
+Visited array / set
+
+Traversing all nodes
+
+LeetCode Problems (Easy → Medium)
+
+1971 – Find if Path Exists in Graph
+
+733 – Flood Fill
+
+200 – Number of Islands ⭐ (MOST IMPORTANT)
+
+695 – Max Area of Island
+
+463 – Island Perimeter
+
+547 – Number of Provinces
+
+841 – Keys and Rooms
+
+👉 If you master these → 50% of graph confidence done.
+
+🔹 Phase 2: Grid-based Graphs (Day 8–15)
+
+Most interview graph problems are hidden grids.
+
+Patterns to learn
+
+2D grid → graph conversion
+
+Direction arrays (up, down, left, right)
+
+Multi-source BFS
+
+LeetCode Problems
+
+994 – Rotting Oranges
+
+1020 – Number of Enclaves
+
+130 – Surrounded Regions
+
+417 – Pacific Atlantic Water Flow
+
+542 – 01 Matrix
+
+1091 – Shortest Path in Binary Matrix
+
+🔹 Phase 3: Cycle Detection (Day 16–22)
+What to learn
+
+Cycle in Undirected graph (DFS / Union-Find)
+
+Cycle in Directed graph (DFS + recursion stack)
+
+LeetCode Problems
+
+1557 – Minimum Number of Vertices to Reach All Nodes
+
+207 – Course Schedule ⭐
+
+210 – Course Schedule II
+
+802 – Find Eventual Safe States
+
+684 – Redundant Connection
+
+🔹 Phase 4: Topological Sort (Day 23–30)
+Concepts
+
+DAG (Directed Acyclic Graph)
+
+Kahn’s Algorithm (BFS)
+
+DFS-based topo sort
+
+LeetCode Problems
+
+207 – Course Schedule (again, but focus on topo)
+
+210 – Course Schedule II
+
+269 – Alien Dictionary
+
+1136 – Parallel Courses
+
+1203 – Sort Items by Groups Respecting Dependencies
+
+🔹 Phase 5: Shortest Path Algorithms (Day 31–40)
+Algorithms to master
+
+BFS (unweighted graph)
+
+Dijkstra (priority queue)
+
+Bellman-Ford (basic idea)
+
+LeetCode Problems
+
+743 – Network Delay Time ⭐
+
+787 – Cheapest Flights Within K Stops
+
+1631 – Path With Minimum Effort
+
+1514 – Path with Maximum Probability
+
+882 – Reachable Nodes In Subdivided Graph
+
+🔹 Phase 6: Union-Find (Disjoint Set) (Day 41–50)
+Concepts
+
+Parent array
+
+Path compression
+
+Union by rank
+
+LeetCode Problems
+
+547 – Number of Provinces
+
+684 – Redundant Connection
+
+721 – Accounts Merge
+
+839 – Similar String Groups
+
+1319 – Number of Operations to Make Network Connected
+
+🔹 Phase 7: Advanced Graphs (Day 51–65)
+Topics
+
+Strongly Connected Components (idea)
+
+Bipartite Graph
+
+Coloring
+
+Minimum Spanning Tree (Kruskal / Prim)
+
+LeetCode Problems
+
+785 – Is Graph Bipartite? ⭐
+
+886 – Possible Bipartition
+
+1584 – Min Cost to Connect All Points
+
+1135 – Connecting Cities With Minimum Cost
+
+1192 – Critical Connections in a Network
+
+🔹 Phase 8: HARD Graph Problems (Day 66–80)
+
+Only after you’re confident 👇
+
+127 – Word Ladder ⭐
+
+126 – Word Ladder II
+
+329 – Longest Increasing Path in a Matrix
+
+212 – Word Search II
+
+847 – Shortest Path Visiting All Nodes
